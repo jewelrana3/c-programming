@@ -1,1 +1,1 @@
-You are entered:22 4.7 ,
+You entered: 10a 20b

@@ -7,12 +7,13 @@
 //     return 0;
 // }
 
-#include<stdio.h>
-int main(){
-    int age;
-    float num;
-    char c;
-    scanf("%d %f %c",&age,&num,&c);
-    printf("You are entered:%d %0.1f %c",age,num,c);
+#include <stdio.h>
+int main() {
+    int a, b;
+
+    
+
+    scanf("%da %db",&a,&b);
+    printf("You entered: %da %db", a, b);
     return 0;
 }
