@@ -10,7 +10,9 @@
 #include<stdio.h>
 int main(){
     int age;
-    scanf("%d",&age);
-    printf("You are entered:%d\n",age);
+    float num;
+    char c;
+    scanf("%d %f %c",&age,&num,&c);
+    printf("You are entered:%d %0.1f %c",age,num,c);
     return 0;
 }
