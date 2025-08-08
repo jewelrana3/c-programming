@@ -4,10 +4,9 @@ int main()
 {
     int myNumber = 44;
     float Nfloat = 3.555;
-  char myText[] = "Hello";
-
+    char Text[]  = "jueyl";
     printf("%d\n",myNumber);
     printf("%0.2f\n",Nfloat);
-    printf("%s",myText );
+    printf("%s",Text);
     return 0;
 }
