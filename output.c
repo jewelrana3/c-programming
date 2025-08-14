@@ -9,11 +9,10 @@
 
 #include <stdio.h>
 int main() {
-    int a, b;
+    // int a=343434545;
+    // long long b  = 1234567891012345678;
+    double a=44.23243434456734;
 
-    
-
-    scanf("%da %db",&a,&b);
-    printf("You entered: %da %db", a, b);
+    printf("%0.16f",a);
     return 0;
 }
